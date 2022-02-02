@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="entireContainer">
+    <div class="imageContainer">
+      <div class="logoContainer">
+        LOGO
+      </div>
+      <div class="creditContainer">
+        photo by <a href="https://unsplash.com/@mxvandeberge">@mxvandeberge</a> on <a href="http://upsplash.com">Unsplash</a>
+      </div>
+    </div>
+    <div class="formContainer">
+      <div class="formText">
+        <h1>
+          This is an online Service! It works so well and will improve your life!
+        </h1>
+      </div>
+      <form action="/" method="post" autocomplete="off">
+        <div class="inputsContainer">
+          <h2 class="formTitle">
+            Sign Up Now!
+          </h2>
+          <div class="inputGroupContainer">
+            <div class="inputLabelContainer">
+              <label for="firstName">FIRST NAME</label>
+              <input type="text" name="first_name" id="firstName">              
+            </div>
+            <div class="inputLabelContainer">
+              <label for="lastName">LAST NAME</label>
+              <input type="text" name="last_name" id="lastName">              
+            </div>
+          </div>
+          <div class="inputGroupContainer">
+            <div class="inputLabelContainer">
+              <label for="email">EMAIL</label>
+              <input type="email" name="email" id="email">              
+            </div>
+            <div class="inputLabelContainer">
+              <label for="phoneNumber">PHONE NUMBER</label>
+              <input type="tel" name="phone_number" id="phoneNumber">              
+            </div>
+          </div>
+          <div class="inputGroupContainer error" id='passwordInputs'>
+            <div class="inputLabelContainer">
+              <label for="password">PASSWORD</label>
+              <input type="password" name="password" id="password">
+              <span>* Passwords do not match</span>              
+            </div>
+            <div class="inputLabelContainer">
+              <label for="confirmPassword">CONFIRM PASSWORD</label>
+              <input type="password" name="confirm_password" id="confirmPassword">              
+            </div>
+          </div>          
+        </div>
+        <div class="buttonContainer">
+          <button type="submit">Create Account</button>
+          <h3 class="logIn">
+            Already have an Account? <a href="/index.html">Log in</a>
+          </h3>          
+        </div>
+      </form>
+
+    </div>
+  </div>
+</body>
+</html>
